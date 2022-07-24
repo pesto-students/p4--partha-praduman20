@@ -9,6 +9,8 @@ body {
     height:100%;
  }
 
+/*Top header*/
+
 #navbar{
     background-color: #454545;
     flex-direction: row;
@@ -20,6 +22,8 @@ body {
     padding: 5px 5px;
 }
 
+/*Album details in header*/
+
 #nav-info{
     margin:2px 2px;
     padding: 2px 12px;
@@ -27,6 +31,8 @@ body {
     font-family: 'Lato', sans-serif;
     height: auto;
 }
+
+/*Styling Icons Used in header*/
 
 #nav-icon{
     padding-top: 135px;
@@ -39,6 +45,8 @@ body {
 i{
     padding: 2px 8px;
 }
+
+/* Playlist Section */
 
 .song-card{
     display: flex;
@@ -64,6 +72,8 @@ i{
     color: blue;
     margin: 2px 2px;
 }
+
+/*Adding CSS to bottom player or footer part*/
 
 footer{
     position: absolute;
