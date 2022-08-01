@@ -1,0 +1,76 @@
+@media (min-width:790px) and (max-width:1400px) {
+    .body{
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:450px) and (max-width:790px){
+    .navbar{
+        display: none;
+    }
+    .body{
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width:450px){
+    .title{
+        margin-left: 68px;
+    }
+
+    .navbar{
+        display: none;
+    }
+    .body{
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .body-image{
+        display: flex;
+        width: 100vw;
+    }
+
+    .card1{
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .card1 p{
+        max-width: 100%;
+    }
+
+    .form-sec{
+        max-width:100%;
+    }
+
+    .footer-area{
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .footer-area div ul{
+        flex-wrap: wrap;
+    }
+
+    .footer-area li{
+        font-size: 14px;
+        padding: 2px 14px;
+    }
+}
