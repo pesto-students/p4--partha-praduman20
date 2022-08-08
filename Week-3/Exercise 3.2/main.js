@@ -26,7 +26,7 @@ const obj2 = {
 employee.call(obj2, "Praduman");
 
 // Apply example - 
-//The call method() calls a function with a given this value and arguments provided as an array.
+//The apply method() calls a function with a given this value and arguments provided as an array.
 
 function greet(arr) {
     console.log(this.greet + ` ${arr}`);
