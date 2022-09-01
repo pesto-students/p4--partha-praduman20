@@ -10,4 +10,3 @@ const getNumber = new Promise((resolve, reject) => {
     .then(console.log)
     .catch(console.error)
     .finally(console.log("Promise fulfilled successfuly."))
-  
