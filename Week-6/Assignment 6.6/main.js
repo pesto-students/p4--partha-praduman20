@@ -16,7 +16,7 @@ function threeSum(arr , target){
 
         while(right > left){
             let temp = arr[i] + arr[left] + arr[right];
-            let diff = abs(temp-target);
+            let diff = Math.abs(temp-target);
 
             if(diff == 0){
                 return target;
