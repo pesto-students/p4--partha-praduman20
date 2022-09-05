@@ -6,6 +6,9 @@ function parenthesisChecker(string){
             stack.push(element);
             continue;
         }
+        if (stack.length == 0){
+            return false;
+        }
         if(element == ")" || element == "]" || element == "}"){
             stack.pop();
         }
