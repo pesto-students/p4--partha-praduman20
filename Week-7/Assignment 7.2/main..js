@@ -25,9 +25,11 @@ function traverseSSL(head){
     }
 }
 
+// function to rotate the linked list by k nodes - 
+
 function rotateByKNodes(head , k){
-    let tail = head ;
-    let count =1;
+    let tail = head;
+    let count = 1;
     while(tail.next){
         count++;
         tail=tail.next;
@@ -36,14 +38,14 @@ function rotateByKNodes(head , k){
     if(k === 0){
         return head;
     }
-    tail.next = head;
+    tail.next=head;
     let steps = count - k + 1;
     let newTail = tail;
     while(steps--){
         newTail=newTail.next;
     }
     let newHead = newTail.next;
-    newTail.next = null;
+    newTail.next = null; 
     return newHead;
 }
 
