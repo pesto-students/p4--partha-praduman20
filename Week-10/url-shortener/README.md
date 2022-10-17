@@ -17,7 +17,3 @@ Launches the test runner in the interactive watch mode.\
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-
-## SS of the app -
-
-![Image](./public/images/Screenshot%202022-10-03%20at%2012.44.26%20AM.png)

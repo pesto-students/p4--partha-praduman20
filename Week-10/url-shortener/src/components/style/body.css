@@ -1,0 +1,118 @@
+.body {
+  height: 80vh;
+  width: 100vw;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #ebebeb;
+}
+
+.partone {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.card {
+  width: 60vw;
+  padding: 4em 2em;
+  margin-left: 1em;
+}
+
+.card h2 {
+  font-size: 4em;
+
+  text-shadow: 0 2px 3px #747474, 1px 3px 4px #222, 0 8px 3px #474747,
+    0 11px 4px #747474, 0 14px 4px #565656, 0 17px 4px #343434,
+    0 20px 4px #171717;
+}
+
+.card p {
+  font-size: 2.4em;
+  margin-top: 1.2em;
+  text-shadow: 0 0 8px #316472;
+}
+
+.card-image {
+  width: 30vw;
+}
+
+.body-image {
+  height: 34vh;
+  width: 28vw;
+}
+
+.form-sec {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 1em auto;
+  width: 52vw;
+  height: 13vh;
+  background-color: #f6f7fb;
+}
+
+.form {
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 2px;
+}
+
+.form input[type="text"] {
+  width: 80%;
+  height: 30%;
+  padding: 2px 2px;
+  margin: 0px 14px;
+  border-radius: 8px;
+}
+
+.button {
+  width: 12%;
+  padding: 2px 2px;
+  margin: 2px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #656565;
+}
+
+.form-sec2 {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 4em auto;
+  width: 52vw;
+  height: 13vh;
+  background-color: #f6f7fb;
+}
+
+.form2 {
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 2px;
+}
+
+.form2 input[type="text"] {
+  width: 80%;
+  height: 30%;
+  border-radius: 8px;
+  padding: 2px 2px;
+  margin: 0px 14px;
+}
+
+.form2 button {
+  width: 12%;
+  padding: 2px 2px;
+  margin: 2px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form2 button:hover {
+  color: #656565;
+}
