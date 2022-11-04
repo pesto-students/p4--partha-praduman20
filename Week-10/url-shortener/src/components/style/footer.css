@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #656565;
+  background-color: black;
+  height: 23vh;
+}
+
+.footer-table {
+  margin: 18px 6px;
+  font-size: 1.2em;
+}
+
+.footer-table th {
+  padding: 2px 20px;
+  margin: 2px 20px;
+  font-size: 1.3em;
+}
+
+.footer-table th:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-table td {
+  padding: 2px 20px;
+  margin: 2px 20px;
+}
+
+.footer-table td:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-head {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1.4em;
+}
